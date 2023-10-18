@@ -8,11 +8,12 @@
 //})
 
 //server.listen(3333)
-
-import { fastify } from 'fastify';
+import fastify from 'fastify';
 import { DatabasePostgres } from './database-postres.js';
 
+
 const server = fastify();
+
 
 const database = new DatabasePostgres()
 
