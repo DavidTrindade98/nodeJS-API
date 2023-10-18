@@ -8,6 +8,7 @@ Content-Type: application/json
     "duration" : 180
 }
 
+
 ###
 
 GET http://localhost:3333/videos

@@ -1,6 +1,8 @@
 import postgres from 'postgres'
 import 'dotenv/config'
 
+
+//
 let { PGHOST, PGDATABASE, PGUSER, PGPASSWORD, ENDPOINT_ID } = process.env;
 
 export const sql = postgres({
@@ -14,4 +16,6 @@ export const sql = postgres({
     options: `project=${ENDPOINT_ID}`,
   },
 });
+
+
 
