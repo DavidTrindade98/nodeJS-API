@@ -1,5 +1,5 @@
 {
-  "name": "nodeJS-API",
+  "name": "node-api-movies",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
